@@ -1,3 +1,5 @@
-n = 5
-n = 7
-print(n)
+n = int(input ("Nhập vào đáy nhỏ: "))
+m = int(input ("Nhập vào đáy lớn: "))
+p = int(input ("Nhập vào đường cao: "))
+s = ((n+m)*p/2)
+print ("Diện tich hình thang:",s)
