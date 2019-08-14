@@ -9,4 +9,4 @@ scores.sort(reverse=True)
 scores.pop(5)
 print("New high scores:")
 for j, item in enumerate(scores):
-    print(i+1, ". ", item, sep='')
+    print(j+1, ". ", item, sep='')
